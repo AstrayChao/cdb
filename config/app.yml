@@ -6,7 +6,7 @@ app:
 
 db:
   postgres:
-    url: "postgresql://postgres:lmrl@localhost:5432/cdb"
+    url: "postgres://postgres:lmrl@localhost:5432/cdb"
     max_connections: 100
     min_connections: 5
     connect_timeout: 10
