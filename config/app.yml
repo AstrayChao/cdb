@@ -1,7 +1,7 @@
 app:
   name: "cdb"
   debug: true
-  env: "test"
+  env: "dev"
   port: 11451
 
 db:

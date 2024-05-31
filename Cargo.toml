@@ -23,8 +23,10 @@ yaml-rust = "0.4.5"
 thiserror = "1.0.61"
 anyhow = "1.0.86"
 validator = {version = "0.18.1", features = ["derive"]}
+rand = "0.8.5"
 chrono = "0.4.38"
 config = "0.14.0"
 r2d2 = "0.8.10"
 sea-orm = {version = "0.12", features = ["sqlx-postgres", "runtime-tokio-rustls", "macros", "debug-print"]}
 redis = {version = "0.25.4", features = ["r2d2", "tokio-comp"]}
+bcrypt = "0.15.1"

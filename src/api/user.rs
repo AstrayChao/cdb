@@ -1,4 +1,4 @@
-use crate::api::response::{UserListResponse};
+use crate::common::response::{UserListResponse};
 use crate::common::result::{ApiResponse, ApiResult};
 use crate::service;
 

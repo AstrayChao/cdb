@@ -6,6 +6,8 @@ pub struct UserResponse {
     pub id: i64,
     pub username: String,
     pub permission: i16,
+    pub email: String,
+    pub status: i16,
     pub created_at: i64,
     pub updated_at: i64,
 }
@@ -17,6 +19,8 @@ impl From<&Model> for UserResponse {
             id: u.id,
             username: u.username.clone(),
             permission: u.permission,
+            email: u.email.clone(),
+            status: u.status,
             created_at: u.created_at,
             updated_at: u.updated_at
         }
