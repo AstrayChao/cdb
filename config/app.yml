@@ -1,0 +1,19 @@
+app:
+  name: "cdb"
+  debug: true
+  env: "test"
+  port: 11451
+
+db:
+  postgres:
+    url: "postgresql://postgres:lmrl@localhost:5432/cdb"
+    max_connections: 100
+    min_connections: 5
+    connect_timeout: 10
+    idle_timeout: 180
+    max_lifetime: 600
+
+
+log:
+  path: "logs"
+  filename: "log.log"
